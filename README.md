@@ -5,7 +5,9 @@
 3. **Select a task you created and go to edit the task**
 4. **Copy the token**
    
-![image](https://github.com/user-attachments/assets/14e6505e-b054-4975-87bf-9c418b42af7c)
+
+![image](https://github.com/user-attachments/assets/80957237-a826-4a99-b30a-6140f0bf191e)
+
 
 5. Call the API to settle the task
 
