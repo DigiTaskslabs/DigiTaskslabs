@@ -27,28 +27,7 @@
 
 
  
-   
-
-      
-10. 创建任务
-11. 任务进入审查状态
-12. 编辑任务
-13. 
-——然后他们就会有API的
-——他们搞API——
-然后send——
-然后直接发布成功
-
-
-
-
-
-   
-
-![image](https://github.com/user-attachments/assets/80957237-a826-4a99-b30a-6140f0bf191e)
-
-
-5. Call the API to settle the task
+## Call the API to settle the task
 
 ```javascript
   const fetch = async () => {
