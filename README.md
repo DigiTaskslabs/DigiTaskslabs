@@ -24,7 +24,8 @@
    
 5. Send an authentication request to verify the task
    
-![image](https://github.com/user-attachments/assets/8717127a-b13f-45a3-a7a4-ca8f9bbb2377)
+![image](https://github.com/user-attachments/assets/e424360d-0c7b-4ec2-82fb-45359a2c0388)
+
 
 
  
