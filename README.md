@@ -34,7 +34,7 @@
 ```javascript
   const fetch = async () => {
     try {
-      const url = 'https://testearn.gametop.me/earn/task/check-ref'
+      const url = 'https://api.digitasks.cc/earn/task/check-ref'
       const params = { uid: 1725584873 } // User id
 
       // add Authorization token to header
