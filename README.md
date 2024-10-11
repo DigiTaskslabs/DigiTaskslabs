@@ -56,7 +56,7 @@ import axios from 'axios'
 
 const fetch = async () => {
   try {
-    const url = 'https://api.digitasks.cc/earn/task/tgidlist'
+    const url = 'https://api.digitasks.cc/earn/task/tgidlist?page=1&pageSize=30'
 
     // add Authorization token to header
     const headers = {
