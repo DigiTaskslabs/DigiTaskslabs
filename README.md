@@ -47,6 +47,58 @@
   }
 ```
 
+
+
+## Get a list of Telegram IDs that have been completed for the current task
+
+```javascript
+import axios from 'axios'
+
+const fetch = async () => {
+  try {
+    const url = 'https://api.digitasks.cc/earn/task/tgidlist'
+
+    // add Authorization token to header
+    const headers = {
+      'Content-Type': 'multipart/form-data',
+      Authorization: 'y7WdddkJH7ztsWx3xNHN0ks+X9b5AZQFF+2MOBoIEOk=', // Your API Access
+    }
+    const { data } = await axios.get(url, { headers })
+    console.log(data)
+    // do something
+  } catch (e) {
+    console.error(e)
+  }
+}
+```
+
+## Get whether or not to complete this task through the user's Telegram ID
+
+```javascript
+import axios from 'axios'
+
+const fetch = async () => {
+  try {
+    const url = 'https://api.digitasks.cc/earn/task/info'
+
+    const params = { tgid: 1725584873 } // Your telegram id
+
+    // add Authorization token to header
+    const headers = {
+      'Content-Type': 'multipart/form-data',
+      Authorization: 'y7WdddkJH7ztsWx3xNHN0ks+X9b5AZQFF+2MOBoIEOk=', // Your API Access
+    }
+    const { data } = await axios.get(url, { headers, params })
+    console.log(data)
+    // do something
+  } catch (e) {
+    console.error(e)
+  }
+}
+```
+
+
+
 ## Example of ./start request API for Telegram bot
 
 ### Python
