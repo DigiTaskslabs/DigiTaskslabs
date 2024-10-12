@@ -1,6 +1,9 @@
 ## Project Integration Process
 
 
+> *If you encounter problems with the connection, you can communicate through Issues*
+
+
 1. Create a project first
    
 ![image](https://github.com/user-attachments/assets/f8b5b68d-eb74-4e10-99df-7590a3395582)
