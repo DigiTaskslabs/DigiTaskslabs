@@ -1,8 +1,6 @@
-## Project Integration Process
-
-
 > *If you encounter problems with the connection, you can communicate through Issues*
 
+## Project Integration Process
 
 1. Create a project first
    
