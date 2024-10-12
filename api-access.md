@@ -1,54 +1,24 @@
----
-icon: merge
----
-
-# Project Integration Process
-
-> _If you encounter problems with the connection, you can communicate through Issues_
-
-
-
-1. Create a project first
-
-![image](https://github.com/user-attachments/assets/f8b5b68d-eb74-4e10-99df-7590a3395582)
-
-2. Publish the task
-
-![image](https://github.com/user-attachments/assets/44dde22e-c196-4998-be5e-eba327274f4f)
-
-3. Look at My Project, where the task you just published is in an unvalidated state
-
-![image](https://github.com/user-attachments/assets/48460662-736b-4ac8-bc45-b62965e0921c)
-
-![image](https://github.com/user-attachments/assets/8ce7561f-d49a-4482-ace2-6c7730d09abb)
-
-4. Edit the task you just created, and you can get information about the verification task
-
-![image](https://github.com/user-attachments/assets/b4670c47-1623-4f00-983e-87c49a66087e)
-
-![image](https://github.com/user-attachments/assets/6aecbfc9-c280-4170-a4e1-d5b225fc3c5f)
-
-5. Send an authentication request to verify the task
-
-![image](https://github.com/user-attachments/assets/e424360d-0c7b-4ec2-82fb-45359a2c0388)
+# ⚙️ API access
 
 ### Call the API to settle the task
 
 ```javascript
-  const fetch = async () => {
-    try {
-      const url = 'https://api.digitasks.cc/earn/task/check-ref'
-      const params = { uid: 1725584873 } // User id
+const fetch = async () => {
+  try {
+    const url = 'https://api.digitasks.cc/earn/task/check-ref'
+    const params = { uid: 1725584873 } // User id
 
-      // add Authorization token to header
-      const headers = { 'Content-Type': 'multipart/form-data', Authorization: 'lp+7fijStQuf/xDsZEfliUs+X9b5AZQFF+2MOBoIEOk=' }
-      const { data } = await axios.post(url, params, { headers })
-      // do something
-    } catch (e) {
-      console.error(e)
-    }
+    // add Authorization token to header
+    const headers = { 'Content-Type': 'multipart/form-data', Authorization: 'lp+7fijStQuf/xDsZEfliUs+X9b5AZQFF+2MOBoIEOk=' }
+    const { data } = await axios.post(url, params, { headers })
+    // do something
+  } catch (e) {
+    console.error(e)
   }
+}
 ```
+
+
 
 ### Get a list of Telegram IDs that have been completed for the current task
 
@@ -72,6 +42,8 @@ const fetch = async () => {
   }
 }
 ```
+
+
 
 ### Get whether or not to complete this task through the user's Telegram ID
 
@@ -98,11 +70,11 @@ const fetch = async () => {
 }
 ```
 
-### Example of ./start request API for Telegram bot
+## Example of ./start request API for Telegram bot
 
 #### Python
 
-```Python
+```python
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
 import requests 
@@ -165,7 +137,7 @@ if __name__ == '__main__':
 
 #### Node.js
 
-```Javascript
+```python
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
@@ -221,3 +193,4 @@ bot.on('callback_query', (query) => {
 });
 
 ```
+
