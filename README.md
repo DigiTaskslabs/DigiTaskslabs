@@ -38,7 +38,7 @@ icon: merge
   const fetch = async () => {
     try {
       const url = 'https://api.digitasks.cc/earn/task/check-ref'
-      const params = { uid: 1725584873 } // User id
+      const params = { uid: 1725584873 } // Telegram id
 
       // add Authorization token to header
       const headers = { 'Content-Type': 'multipart/form-data', Authorization: 'lp+7fijStQuf/xDsZEfliUs+X9b5AZQFF+2MOBoIEOk=' }
