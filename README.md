@@ -61,7 +61,7 @@ const fetch = async () => {
 
     // add Authorization token to header
     const headers = {
-      'Content-Type': 'multipart/form-data',
+      'Content-Type': 'application/json',
       Authorization: 'y7WdddkJH7ztsWx3xNHN0ks+X9b5AZQFF+2MOBoIEOk=', // Your API Access
     }
     const { data } = await axios.get(url, { headers })
@@ -86,7 +86,7 @@ const fetch = async () => {
 
     // add Authorization token to header
     const headers = {
-      'Content-Type': 'multipart/form-data',
+      'Content-Type': 'application/json',
       Authorization: 'y7WdddkJH7ztsWx3xNHN0ks+X9b5AZQFF+2MOBoIEOk=', // Your API Access
     }
     const { data } = await axios.get(url, { headers, params })
@@ -115,7 +115,7 @@ def start(update: Update, context: CallbackContext):
         'UID': uid
     } 
     headers = {  
-        'Content-Type': 'multipart/form-data',   
+        'Content-Type': 'application/json',   
         'Authorization': ' YOUR_TASK_TOKEN'   #Replace with your task token
     } 
     try:
@@ -179,7 +179,7 @@ bot.onText(/\/start/, async (msg) => {
     const url = 'https://api.digitasks.cc/earn/task/check-ref';
     const form_data = { UID: uid };
     const headers = {
-        'Content-Type': 'multipart/form-data',
+        'Content-Type': 'application/json',
         'Authorization': 'YOUR_TASK_TOKEN' // Replace with your task token
     };
 
