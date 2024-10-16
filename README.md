@@ -41,7 +41,7 @@ icon: merge
       const params = { uid: 1725584873 } // Telegram id
 
       // add Authorization token to header
-      const headers = { 'Content-Type': 'multipart/form-data', Authorization: 'lp+7fijStQuf/xDsZEfliUs+X9b5AZQFF+2MOBoIEOk=' }
+      const headers = { 'Content-Type': 'application/json', Authorization: 'lp+7fijStQuf/xDsZEfliUs+X9b5AZQFF+2MOBoIEOk=' }
       const { data } = await axios.post(url, params, { headers })
       // do something
     } catch (e) {
