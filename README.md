@@ -12,11 +12,11 @@ url:https://api.digitasks.cc/earn/task/check-ref
 
 Request parameter:
 
- uid:"Telegram user id"
+&nbsp;&nbsp;uid:"Telegram user id"
  
 Request header :
 
- Authorization:"task token"
+&nbsp;&nbsp;Authorization:"task token"
  
 type:POST
 
@@ -176,13 +176,13 @@ url:https://api.digitasks.cc/earn/task/tgidlist
 
 Request parameter:
 
- page:"page number"
+&nbsp;&nbsp;page:"page number"
  
- pageSize:"Number of items per page"   
+&nbsp;&nbsp;pageSize:"Number of items per page"   
  
 Request header :
 
- Authorization:"task token"
+&nbsp;&nbsp;Authorization:"task token"
  
 type:GET
 
@@ -216,11 +216,11 @@ url:https://api.digitasks.cc/earn/task/info
 
 Request parameter:
 
- tgid:"Telegram user id"
+&nbsp;&nbsp;tgid:"Telegram user id"
  
 Request header :
 
- Authorization:"task token"
+&nbsp;&nbsp;Authorization:"task token"
  
 type:GET
 
