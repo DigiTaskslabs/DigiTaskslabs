@@ -7,32 +7,6 @@ icon: merge
 > _If you encounter problems with the connection, you can communicate through Issues_
 
 
-
-1. Create a project first
-
-![image](https://github.com/user-attachments/assets/f8b5b68d-eb74-4e10-99df-7590a3395582)
-
-2. Publish the task
-
-![image](https://github.com/user-attachments/assets/44dde22e-c196-4998-be5e-eba327274f4f)
-
-3. Look at My Project, where the task you just published is in an unvalidated state
-
-![image](https://github.com/user-attachments/assets/48460662-736b-4ac8-bc45-b62965e0921c)
-
-![image](https://github.com/user-attachments/assets/8ce7561f-d49a-4482-ace2-6c7730d09abb)
-
-4. Edit the task you just created, and you can get information about the verification task
-
-![image](https://github.com/user-attachments/assets/b4670c47-1623-4f00-983e-87c49a66087e)
-
-![image](https://github.com/user-attachments/assets/6aecbfc9-c280-4170-a4e1-d5b225fc3c5f)
-
-5. Send an authentication request to verify the task
-
-![image](https://github.com/user-attachments/assets/e424360d-0c7b-4ec2-82fb-45359a2c0388)
-
-
 ### Call the API to settle the task
 url:https://api.digitasks.cc/earn/task/check-ref
 
