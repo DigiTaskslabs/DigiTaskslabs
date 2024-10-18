@@ -35,11 +35,17 @@ icon: merge
 
 ### Call the API to settle the task
 url:https://api.digitasks.cc/earn/task/check-ref
+
 Request parameter:
+
  uid:"Telegram user id"
+ 
 Request header :
+
  Authorization:"task token"
+ 
 type:POST
+
 example:
 ```javascript
 curl -X POST "https://api.digitasks.cc/earn/task/check-ref" -H "Authorization: <task_token>" -H "Content-Type: application/json" -d {"uid":<telegram_user_id>}
