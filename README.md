@@ -199,12 +199,19 @@ bot.on('callback_query', (query) => {
 
 ### Get a list of Telegram IDs that have been completed for the current task
 url:https://api.digitasks.cc/earn/task/tgidlist
+
 Request parameter:
+
  page:"page number"
- pageSize:"Number of items per page"    
+ 
+ pageSize:"Number of items per page"   
+ 
 Request header :
+
  Authorization:"task token"
+ 
 type:GET
+
 example:
 ```javascript
 curl -X GET "https://api.digitasks.cc/earn/task/tgidlist?page=1&pageSize=30" -H "Authorization: <task_token>" 
@@ -232,11 +239,17 @@ const fetch = async () => {
 
 ### Get whether or not to complete this task through the user's Telegram ID
 url:https://api.digitasks.cc/earn/task/info
+
 Request parameter:
+
  tgid:"Telegram user id"
+ 
 Request header :
+
  Authorization:"task token"
+ 
 type:GET
+
 example:
 ```javascript
 curl -X GET "https://api.digitasks.cc/earn/task/info?tgid=1725584873" -H "Authorization: <task_token>" 
