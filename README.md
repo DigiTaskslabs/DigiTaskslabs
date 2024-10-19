@@ -162,6 +162,7 @@ bot.on('callback_query', (query) => {
 });
 
 ```
+#### There are also miniapp registered membership examples in the main.go file
 #### Responce:
 | code     | message| solution|
 | -------- | -------- |-------- |
