@@ -39,6 +39,7 @@ curl -X POST "https://api.digitasks.cc/earn/task/check-ref" -H "Authorization: <
     }
   }
 ```
+You can go to the [api documentation](https://apifox.com/apidoc/shared-7e2b39e5-13b3-4a3e-a65b-729357dee1c1?pwd=888888) for other language examples
 
 #### There are also miniapp registered membership examples in the main.go file
 #### Responce:
