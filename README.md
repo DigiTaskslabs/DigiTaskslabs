@@ -20,6 +20,14 @@ Request header :
  
 type:POST
 
+#### Responce:
+| code     | message| solution|
+| -------- | -------- |-------- |
+| 30020    | parameter error|Check the 'uid' 'Authorization' parameter |
+| 30008    | task not opened yet|Check whether the task is approved|
+| 30022    | task failed|The number of remaining tasks is insufficient|
+| 30024    | task is accomplished or gold shortage| Quest completed or not enough gold|
+
 example:
 ```javascript
 curl -X POST "https://api.digitasks.cc/earn/task/check-ref" -H "Authorization: <task_token>" -H "Content-Type: application/json" -d {"uid":<telegram_user_id>}
@@ -42,13 +50,7 @@ curl -X POST "https://api.digitasks.cc/earn/task/check-ref" -H "Authorization: <
 You can go to the [api documentation](https://apifox.com/apidoc/shared-7e2b39e5-13b3-4a3e-a65b-729357dee1c1?pwd=888888) for other language examples
 
 #### There are also miniapp registered membership examples in the main.go file
-#### Responce:
-| code     | message| solution|
-| -------- | -------- |-------- |
-| 30020    | parameter error|Check the 'uid' 'Authorization' parameter |
-| 30008    | task not opened yet|Check whether the task is approved|
-| 30022    | task failed|The number of remaining tasks is insufficient|
-| 30024    | task is accomplished or gold shortage| Quest completed or not enough gold|
+
 
 
 ### Get a list of Telegram IDs that have been completed for the current task
