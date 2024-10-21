@@ -6,8 +6,19 @@ icon: merge
 
 > _If you encounter problems with the connection, you can communicate through Issues_
 
+1.After creating the task, copy the task token
+
+2.Write api request code in your project
+
+3.After the task is successfully launched, go to the task editing page and click Verify
+
+4.Task on-line
 
 ### Call the API to settle the task
+
+This interface is used to notify us after the user completes the task. If your task is to invite registration, please notify us after the user successfully completes the task
+
+
 url:https://api.digitasks.cc/earn/task/check-ref
 
 Request parameter:
