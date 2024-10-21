@@ -14,7 +14,7 @@ icon: merge
 
 4.Task on-line
 
-### Call the API to settle the task
+### Api interface for task completion
 
 This interface is used to notify us after the user completes the task. If your task is to invite registration, please notify us after the user successfully completes the task
 
