@@ -6,7 +6,7 @@ icon: merge
 
 > _If you encounter problems with the connection, you can communicate through Issues_
 
-1.After creating the task, copy the task token
+1.After the administrator approves the task, the task token is copied
 
 2.Write api request code in your project
 
