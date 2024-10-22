@@ -10,7 +10,7 @@ icon: merge
 
 2.Write api request code in your project
 
-3.After the task is successfully launched, go to the task editing page and click Verify
+3.After the task is successfully launched, go to the task editing page and click Verify(Your task edit page →Click Access API →Send)
 
 4.Task on-line
 
