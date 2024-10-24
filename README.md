@@ -6,13 +6,24 @@ icon: merge
 
 > _If you encounter problems with the connection, you can communicate through Issues_
 
-1.After the administrator approves the task, the task token is copied
+# API Overview 
+DigiTasks provides the following three core API interfaces to help developers manage detailed information about user tasks:
+## Task Completion Notification Interface (check-ref): 
+&nbsp;&nbsp;Used to notify the DigiTasks platform that a task has been completed by a user, triggering the platform to distribute rewards accordingly.
+## Task Completion User List Interface (tgidlist): 
+&nbsp;&nbsp;Used to retrieve the Telegram user ID list of users who have completed a task.
+## Individual Task User Status Query Interface (info):
+&nbsp;&nbsp;Used to check if a specific Telegram user has completed a task.
+# Task Process Description
+## Task Creation and Token Allocation: 
+&nbsp;&nbsp;After a task is created and approved by an administrator, the system generates a unique task token for each task. This token will be used for authentication in subsequent API calls.
+## Task Completion Notification Process: 
+&nbsp;&nbsp;When a user completes a task on the platform (e.g., registration, successful invitation, etc.), the front-end or back-end should notify the DigiTasks platform by calling the check-ref interface, indicating that the specified user has completed the task. DigiTasks will distribute rewards based on this notification.
+## Task Completion Query and User Management: 
+&nbsp;&nbsp;Developers can use the tgidlist interface to obtain the list of users who have completed the task. They can also use the info interface to check the completion status of individual users for a given task.
+## API Verification: 
+The task publisher account needs to go to the API editing page in the task editor, click "send" for verification. Once verified, the task can be automatically published. path:(Your task edit page →Click Access API →Send)
 
-2.Write api request code in your project
-
-3.After the task is successfully launched, go to the task editing page and click Verify(Your task edit page →Click Access API →Send)
-
-4.Task on-line
 
 ### Api interface for task completion
 
