@@ -34,7 +34,7 @@ url:https://api.digitasks.cc/earn/task/check-ref
 
 Request parameter:
 
-&nbsp;&nbsp;uid:"Telegram user id"
+&nbsp;&nbsp;uid:"Telegram user id" //Here you need to grab the telegram user id
  
 Request header :
 
