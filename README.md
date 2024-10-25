@@ -58,7 +58,7 @@ curl -X POST "https://api.digitasks.cc/earn/task/check-ref" -H "Authorization: <
   const fetch = async () => {
     try {
       const url = 'https://api.digitasks.cc/earn/task/check-ref'
-      const params = { uid: 1725584873 } // Telegram id
+      const params = { uid: 1725584873 } // Here you need to grab the telegram user id
 
       // add Authorization token to header
       const headers = { 'Content-Type': 'application/json', Authorization: 'lp+7fijStQuf/xDsZEfliUs+X9b5AZQFF+2MOBoIEOk=' }
