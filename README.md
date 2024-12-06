@@ -30,7 +30,7 @@ The task publisher account needs to go to the API editing page in the task edito
 This interface is used to notify us after the user completes the task. If your task is to invite registration, please notify us after the user successfully completes the task
 
 
-url:https://api.digitasks.cc/earn/task/check-ref
+url:https://api.digitasks.cc/earn/task/check-ref    (if your task is super ,url:https://api.digitasks.cc/earn/super/check-ref)
 
 Request parameter:
 
